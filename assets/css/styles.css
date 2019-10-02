@@ -1,4 +1,8 @@
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* BACKGROUND IMAGE HEADER */
 .background {
     background-image: url("../img/baking.jpg");
@@ -9,18 +13,45 @@
 }
 
 /* HEADER & NAVBAR */
-.mainheader {
+.mainheader1 {
     top: 50%;
     left: 50%;
     position: absolute;
-    color: darkgreen;
-    font-family: 'Lobster Two', cursive;
-    font-size: 4rem;
+    color: darkred;
+    font-family: 'Special Elite', cursive;
+    font-size: 5rem;
+    box-shadow: 2px 2px black;
+    padding: 1rem;
+
 }
 
 
+.lists {
+    left: 28%;
+    position: absolute;
+}
 
+.lists li {
+    float: left;
+}
 
+li {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    list-style-type: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+li:hover {
+    background-color: darkred;
+    color: white;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
 
 /* BACKGROUND IMAGE HEADER */
 
