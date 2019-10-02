@@ -1,0 +1,30 @@
+
+/* BACKGROUND IMAGE HEADER */
+.background {
+    background-image: url("../img/baking.jpg");
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER & NAVBAR */
+.mainheader {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: darkgreen;
+    font-family: 'Lobster Two', cursive;
+    font-size: 4rem;
+}
+
+
+
+
+
+/* BACKGROUND IMAGE HEADER */
+
+
+
+
+/* BACKGROUND IMAGE HEADER */
