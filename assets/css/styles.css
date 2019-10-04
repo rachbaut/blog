@@ -108,6 +108,14 @@ li:hover {
 .card-img-top {
     height: 300px;
 }
+
+.card-deck {
+    padding: 2rem;
+}
+
+.card {
+    overflow: hidden;
+}
 /* COOKING RECIPES */
 
 .cookingsec {
