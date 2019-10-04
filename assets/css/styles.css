@@ -7,12 +7,15 @@
 body {
     font-family: 'Poiret One', cursive;
     line-height: 1.7;
+    padding: .8rem;
 }
 /* BACKGROUND IMAGE HEADER */
 .header {
-    background-image: url(../img/baking.jpg);
+    background-image: linear-gradient(to right bottom, rgba(240, 240, 240, 0.5), rgba(233, 189, 180, 0.5)), url(../img/baking.jpg);
     height: 100vh;
     background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }
 
 /* HEADER & NAVBAR */
@@ -29,7 +32,8 @@ body {
 
 
 .lists {
-    left: 28%;
+    left: 50%;
+    transform: translate(-50%);
     position: absolute;
 }
 
@@ -38,7 +42,7 @@ body {
 }
 
 li {
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-left: 2rem;
     list-style-type: none;
     font-family: 'Poiret One', cursive;
@@ -64,14 +68,72 @@ li:hover {
     text-align: center;
 }
 
+.aboutHR {
+    margin-right: 4rem;
+    margin-left: 4rem;
+    
+}
+
 .info {
     text-align: center;
-    padding: 1.5rem 2rem 1.5rem 2rem;
+    padding: 1.5rem 4rem 1.5rem 4rem;
     font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.info::first-letter {
+    font-weight: bolder;
+    color: darkred;
 }
 
 
 
 
+/* BAKING RECIPES */
 
-/* BACKGROUND IMAGE HEADER */
+.bakingsec {
+    background-image: linear-gradient(to right bottom, rgba(240, 240, 240, 0.5), rgba(233, 189, 180, 0.5)), url(../img/bakingessentials.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+}
+
+.bakingheader {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.card-img-top {
+    height: 300px;
+}
+/* COOKING RECIPES */
+
+.cookingsec {
+    height: 100vh;
+}
+
+.cookingheader {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 35vh;
+    background-image: linear-gradient(to right bottom, rgba(240, 240, 240, 0.5), rgba(233, 189, 180, 0.5)), url(../img/baking.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 17%, 100% 0, 100% 100%, 0 100%);
+}
+
+.footerheader {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-top: 4rem;
+}
